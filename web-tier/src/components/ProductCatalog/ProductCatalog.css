@@ -1,0 +1,67 @@
+body, html {
+    background-color: #f4f0ec !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .product-catalog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    min-width: 1400px; /* Set minimum width */
+    width: 100%; /* Set maximum width to viewport width */
+    overflow-x: auto; /* Hide horizontal scrollbar */
+  }
+  
+  .product-catalog-title {
+    color: rgb(38, 34, 34);
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .product-catalog-table {
+    min-width: 1200px; /* Set minimum width */
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #6e6c77;
+    box-sizing: border-box;
+  }
+  
+  .product-catalog-table th,
+  .product-catalog-table td {
+    border: 1px solid #6e6c77;
+    padding: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    min-width: 250px;
+  }
+  
+  .product-catalog-table th {
+    background-color: #6e6c77; /* Dark background for header cells */
+    color: yellow; /* Yellow text color for header cells */
+    width: 50.33%; /* Ensure th columns match the width of td columns */
+  }
+  
+  .product-catalog-table td {
+    color: white; /* White text color for entries */
+    width: 50.33%; /* Ensure td columns match the width of th columns */
+  }
+  
+  .product-catalog-table tr:nth-child(even) {
+    background-color: #6e6c77; /* Dark background for even rows */
+  }
+  
+  .product-catalog-table tr:hover {
+    background-color: #3f3e45;
+  }
+  
+  .product-catalog-table img {
+    width: 100px;
+    height: auto;
+  }  

@@ -1,0 +1,47 @@
+#transactions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#transactions td, #transactions th {
+  border: 1px solid rgb(9, 81, 187);
+  color: rgb(237, 237, 237);
+  padding: 8px;
+}
+
+#title {
+  color: rgb(44, 41, 41)
+}
+
+#colHeader td{
+  color:rgb(9, 81, 187);
+}
+
+#heading th {
+  background-color: #221f2d;
+  color: rgb(230, 235, 241);
+}
+
+#transactions tr:nth-child(even){background-color: #221f2d;}
+#transactions tr:nth-child(odd){background-color: #221f2d;}
+
+#transactions tr:hover {background-color:#333;}
+
+#transactions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #221f2d;
+}
+
+thead,
+tbody {
+display: block;
+}
+
+tbody {
+height: 500px;
+overflow: auto;
+}
