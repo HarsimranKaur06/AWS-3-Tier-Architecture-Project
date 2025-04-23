@@ -77,6 +77,16 @@ Deployed ASGs in multi-AZ for resilience
 External ALB for Web Tier: Routed user HTTP traffic to Web ASG
 Internal ALB for App Tier: Routed traffic from Web Tier to App instances
 
+# Step 9: Target Groups and Health Checks
+
+Created target groups for Web and App Tier Auto Scaling Groups
+Configured health check paths to monitor instance availability
+
+# Step 10: Testing and Validation
+
+Validated full application flow from frontend to DB
+Performed failover testing across AZs to ensure high availability
+
 # Application Flow
 
 User visits external ALB URL
@@ -120,3 +130,6 @@ Define allow/deny rules to restrict traffic by protocol, port, and source IP ran
 # Conclusion
 
 This AWS-based three-tier architecture project demonstrates an enterprise-grade solution for hosting scalable, resilient, and secure applications. Through the use of managed services, automation with ASGs, and strict network/security controls, we built a robust platform suitable for real-world workloads.
+
+# Medium Article
+https://medium.com/@harsimrankaur06/multi-tier-architecture-on-aws-a-comprehensive-guide-with-sample-application-setup-8a5e2778a736
